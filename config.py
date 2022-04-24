@@ -9,6 +9,6 @@ class Config(object):
 
     DATABASE = os.environ.get("DATABASE", "")
 
-    DEV_NAME = os.environ.get("DEV_NAME", "Muhammed")
+    DEV_NAME = os.environ.get("DEV_NAME", "transilatedID")
 
     DEV_ID = set(int(x) for x in os.environ.get("DEV_ID", "1855070892").split())
